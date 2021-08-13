@@ -29,6 +29,17 @@
         </geometry>
       </collision>
     </link>
+
+    <!--_____________________________________________________________________-->
+      <gazebo>
+        <mu1>10</mu1><!-- friction coefficients -->
+        <mu2>10</mu2>
+        <kp>100.0</kp><!-- controller coefficients-->
+        <kd>100.0</kd>
+        <minDepth>0.002</minDepth><!-- contact parameters-->
+        <maxVel>0</maxVel>
+      </gazebo>
+    <!--___________________________________________________________________-->
   </xacro:macro>
 
   <xacro:macro name="finger_tip_joint" params="prefix fingerprefix">

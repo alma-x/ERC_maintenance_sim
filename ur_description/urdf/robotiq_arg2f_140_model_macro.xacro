@@ -164,6 +164,14 @@
 
     <gazebo reference="${prefix}${fingerprefix}_inner_finger">
         <material>Gazebo/DarkGrey</material>
+        <!--_____________________________________________________________________-->
+        <mu1>10</mu1><!-- friction coefficients -->
+        <mu2>10</mu2>
+        <kp>100.0</kp><!-- controller coefficients-->
+        <kd>100.0</kd>
+        <minDepth>0.002</minDepth><!-- contact parameters-->
+        <maxVel>0</maxVel>
+        <!--___________________________________________________________________-->
     </gazebo>
   </xacro:macro>
 
@@ -199,6 +207,14 @@
 
     <gazebo reference="${prefix}${fingerprefix}_inner_finger2">
         <material>Gazebo/DarkGrey</material>
+        <!--_____________________________________________________________________-->
+        <mu1>10</mu1><!-- friction coefficients -->
+        <mu2>10</mu2>
+        <kp>100.0</kp><!-- controller coefficients-->
+        <kd>100.0</kd>
+        <minDepth>0.002</minDepth><!-- contact parameters-->
+        <maxVel>0</maxVel>
+        <!--___________________________________________________________________-->
     </gazebo>
   </xacro:macro>
 
@@ -309,6 +325,14 @@
 
     <gazebo reference="${prefix}${fingerprefix}_finger_tip">
         <material>Gazebo/DarkGrey</material>
+        <!--_____________________________________________________________________-->
+        <mu1>10</mu1><!-- friction coefficients -->
+        <mu2>10</mu2>
+        <kp>100.0</kp><!-- controller coefficients-->
+        <kd>100.0</kd>
+        <minDepth>0.002</minDepth><!-- contact parameters-->
+        <maxVel>0</maxVel>
+        <!--___________________________________________________________________-->
     </gazebo>
   </xacro:macro>
 
